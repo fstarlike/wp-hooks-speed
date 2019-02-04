@@ -1,4 +1,4 @@
-<?php 
+<?php
 /*
   Plugin Name: Simple wordpress hooks speed debug
   Plugin URI: https://dind.biz/
@@ -7,6 +7,13 @@
   Author: Fstarlike
   Author URI: https://www.dind.biz/
 */
+
+// don't load directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	header('Status: 403 Forbidden');
+	header('HTTP/1.1 403 Forbidden');
+	exit;
+}
 
 $GLOBALS['dbgr_hooks_data'] = [ 
     'dbgr_hooks_data' => [
