@@ -1,6 +1,6 @@
 <?php
 /*
-  Plugin Name: Simple wordpress hooks speed debug
+  Plugin Name: Simple wordpress hooks speeds debug
   Plugin URI: https://dind.biz/
   Description: Wordpress Hooks Speed Calculator
   Version: 1.0.0
