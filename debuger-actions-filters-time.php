@@ -3,7 +3,7 @@
   Plugin Name: Simple wordpress hooks speed debug
   Plugin URI: https://dind.biz/
   Description: Wordpress Hooks Speed Calculator
-  Version: 1
+  Version: 1.0.0
   Author: Fstarlike
   Author URI: https://www.dind.biz/
 */
