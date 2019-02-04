@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 $GLOBALS['dbgr_hooks_data'] = [ 
     'dbgr_hooks_data' => [
         'start' => time(),
-        'dir'   => ABSPATH . '' // The path to data storage
+        'dir'   => ABSPATH . 'hooks-data.json' // The path to data storage
     ]  
 ];
 
